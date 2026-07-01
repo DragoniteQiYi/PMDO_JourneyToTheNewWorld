@@ -1,0 +1,98 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"start_camp": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [
+"start_camp"
+],
+"Maps": [],
+"Name": {
+"DefaultText": "Start Camp",
+"LocalTexts": {
+"zh": "初始营地",
+"en": "Start Camp"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"island_camp": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [
+"island_camp"
+],
+"Maps": [],
+"Name": {
+"DefaultText": "Island Camp",
+"LocalTexts": {
+"zh-hans": "海岛营地",
+"en": "Island Camp"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+},
+"island_forest": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [],
+"Maps": [
+[
+0
+]
+],
+"Name": {
+"DefaultText": "Island Woods",
+"LocalTexts": {
+"zh-hans": "海岛林地",
+"en": "Island Woods"
+}
+},
+"Released": false,
+"Comment": "",
+"SortOrder": 0
+}
+}
+}

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.NetStandard.ResXResourceReader, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.NetStandard.ResXResourceWriter, System.Resources.NetStandard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </resheader>
+  <data name="cutscene_charmander_0" xml:space="preserve">
+    <value>终于到了。pause=0]\n情报没错的话，[pause=0]{0}就躲在这片林子里。</value>
+  </data>
+  <data name="cutscene_eevee_0" xml:space="preserve">
+    <value>他藏在林中的山洞里。</value>
+  </data>
+  <data name="cutscene_riolu_0" xml:space="preserve">
+    <value>藏山洞里，[pause=0]真没品味，[pause=0]\n不过我喜欢。[pause=30]省得我们费功夫把林子翻个底朝天。</value>
+  </data>
+  <data name="cutscene_charmander_1" xml:space="preserve">
+    <value>这家伙案底叠起来比这座岛都高。[pause=0]{0}、{1}已经落网，[pause=30]是时候一了百了了。</value>
+  </data>
+  <data name="cutscene_eevee_1" xml:space="preserve">
+    <value>先别着急，[pause=0]{0}不是普通的目标。\n[pause=0]能位列“三绝”的，哪怕落单也不能轻敌。</value>
+  </data>
+  <data name="cutscene_riolu_1" xml:space="preserve">
+    <value>你就放一百个心吧！[pause=0]咱仨什么时候轻过敌？\n[pause=0]不过说真的，[pause=30]这岛上气氛确实有点怪。</value>
+  </data>
+  <data name="cutscene_charmander_2" xml:space="preserve">
+    <value>趁天还亮，[pause=30]等会就走吧。[pause=0]再晚点就是那些野怪的天下了。</value>
+  </data>
+  <data name="cutscene_eevee_2" xml:space="preserve">
+    <value>进去之前还有几件事。[pause=0]\n首先，[pause=30]保持队形，[pause=30]不要分散。[br]第二，[pause=30]遭遇目标先发信号，[pause=30]\n别单独交手。</value>
+  </data>
+  <data name="cutscene_riolu_2" xml:space="preserve">
+    <value>侦察就让我来！[pause=0]方圆百米有什么风吹草动我第一个知道。</value>
+  </data>
+  <data name="cutscene_eevee_3" xml:space="preserve">
+    <value>没问题。[pause=0]\n第三[pause=30]，如果真打起来，[pause=30]{0}你的火焰就是主力，[br][pause=30]不过不可以冒进。</value>
+  </data>
+  <data name="cutscene_riolu_3" xml:space="preserve">
+    <value>你说“如果真打起来”，[pause=0]该不会觉得还能谈判吧？</value>
+  </data>
+  <data name="cutscene_eevee_4" xml:space="preserve">
+    <value>是控制，[pause=30]和这种恶徒哪有什么谈判的余地。</value>
+  </data>
+  <data name="cutscene_charmander_3" xml:space="preserve">
+    <value>能活捉最好，[pause=0]实在不行就打到动弹不得。[pause=0]\n这点我没意见。</value>
+  </data>
+  <data name="cutscene_riolu_4" xml:space="preserve">
+    <value>行，[pause=30]那就这样了——[pause=0]先围后捕，[pause=30]控制不了再往死里揍。[pause=0][br]不过咱们从什么时候起行动前需要讨论战术了？</value>
+  </data>
+  <data name="cutscene_charmander_4" xml:space="preserve">
+    <value>从你上次差点被{0}劈成两半开始。</value>
+  </data>
+  <data name="cutscene_riolu_5" xml:space="preserve">
+    <value>啊啊啊？[pause=0]那次是我故意卖破绽！</value>
+  </data>
+  <data name="cutscene_eevee_5" xml:space="preserve">
+    <value>那次是你的波导先断了信号，[pause=30]我们找了你整整四分钟。</value>
+  </data>
+  <data name="cutscene_riolu_6" xml:space="preserve">
+    <value>好好好。[pause=0]这么翻旧账是吧。[pause=0]\n这回我保证全程在线，[pause=0]行吧？</value>
+  </data>
+  <data name="cutscene_charmander_5" xml:space="preserve">
+    <value>行，[pause=30]开始准备吧。</value>
+  </data>
+  <data name="npc_riolu_r0" xml:space="preserve">
+    <value>{0}，来来来，我有一个大胆的想法！</value>
+  </data>
+  <data name="npc_riolu_pause" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="npc_riolu_c0" xml:space="preserve">
+    <value>什么想法？你倒是说啊！</value>
+  </data>
+  <data name="npc_riolu_r1" xml:space="preserve">
+    <value>这样，[pause=0]我们干脆伪装成崇拜者，[pause=0]拎两瓶树果汁上门，[pause=30]说久仰大名想拜师。[br]等他放松警惕，[pause=0]我直接一个发劲摁住他，[pause=30]你用炼狱封路，[pause=30]{0}绕后，[pause=30]三秒收工！</value>
+  </data>
+  <data name="npc_riolu_c1" xml:space="preserve">
+    <value>……我该怎么说你呢。</value>
+  </data>
+  <data name="npc_riolu_r2" xml:space="preserve">
+    <value>你就说有没有创意吧！</value>
+  </data>
+  <data name="npc_riolu_c2" xml:space="preserve">
+    <value>那可真是太有创意了！[pause=0]下次把那群新人全交给你带，[pause=0]带不好你全责。</value>
+  </data>
+  <data name="npc_riolu_r3" xml:space="preserve">
+    <value>不行不行，[pause=0]你这是嫉妒我的才华！</value>
+  </data>
+  <data name="npc_riolu_c3" xml:space="preserve">
+    <value>我嫉妒你都能被{0}撵着跑。</value>
+  </data>
+  <data name="npc_eevee_c0" xml:space="preserve">
+    <value>{0}，说点正事。</value>
+  </data>
+  <data name="npc_eevee_e0" xml:space="preserve">
+    <value>你说。</value>
+  </data>
+  <data name="npc_eevee_c1" xml:space="preserve">
+    <value>假设一切顺利，[pause=0]我们真抓到了仆刀将军。[pause=0]然后呢？</value>
+  </data>
+  <data name="npc_eevee_e1" xml:space="preserve">
+    <value>那当然是押送回去，[pause=0]移交总部。</value>
+  </data>
+  <data name="npc_eevee_c2" xml:space="preserve">
+    <value>我不是问流程。[pause=0]他的那些手下、[pause=30]据点里藏的东西、[pause=30]还有那些见不得光的交易。[br]我们抓了人，[pause=0]后续谁去处理？</value>
+  </data>
+  <data name="npc_eevee_e2" xml:space="preserve">
+    <value>你怕留尾巴？</value>
+  </data>
+  <data name="npc_eevee_c3" xml:space="preserve">
+    <value>我不想跟上次一样。[pause=0]抓了头目之后手下全散了，[pause=0]半年后又在别处冒出来，[pause=30]继续害人。</value>
+  </data>
+  <data name="npc_eevee_e3" xml:space="preserve">
+    <value>这次不会。[pause=0]上岛之前我已经把情报同步给了三支外勤队。[br]我们负责抓人，[pause=0]他们同步收网。[br]等我们押着仆刀将军离岛，[pause=0]他的网络应该已经不存在了。</value>
+  </data>
+  <data name="npc_eevee_c4" xml:space="preserve">
+    <value>全部？</value>
+  </data>
+  <data name="npc_eevee_e4" xml:space="preserve">
+    <value>至少九成吧。[pause=0]剩下的都是些不成气候的流寇。[pause=0]而且就算我们没能抓到，[pause=0]搜查队也会派来支援。</value>
+  </data>
+  <data name="npc_eevee_c5" xml:space="preserve">
+    <value>行，[pause=30]我明白了。[pause=0]这种事还是交给你放心。</value>
+  </data>
+  <data name="npc_riolu_default" xml:space="preserve">
+    <value>{0}四倍弱格斗，[pause=0]看我等会一拳打爆他！</value>
+  </data>
+  <data name="npc_eevee_default" xml:space="preserve">
+    <value>{0}，[pause=0]你准备好了我们马上就行动。</value>
+  </data>
+</root>

@@ -1,0 +1,12 @@
+<Header>
+  <Name>Journey to the New World</Name>
+  <Author>奇异君</Author>
+  <Description>
+  </Description>
+  <Namespace>jnw</Namespace>
+  <UUID>33D04DB6-E936-4464-BA27-76651FE4CEFC</UUID>
+  <Version>0.1</Version>
+  <GameVersion>0.8.11</GameVersion>
+  <ModType>Quest</ModType>
+  <Relationships />
+</Header>
