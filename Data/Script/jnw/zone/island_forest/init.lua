@@ -30,7 +30,6 @@ end
 --Engine callback function
 function island_forest.ExitSegment(zone, result, rescue, segmentID, mapID)
 
-
 end
 
 ---island_forest.Rescued(zone, name, mail)

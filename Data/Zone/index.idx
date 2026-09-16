@@ -75,7 +75,7 @@
 "KeepTreasure": false,
 "BagSize": -1,
 "Rescues": 0,
-"CountedFloors": 0,
+"CountedFloors": 1,
 "Rogue": 0,
 "Grounds": [],
 "Maps": [
@@ -88,6 +88,85 @@
 "LocalTexts": {
 "zh-hans": "海岛林地",
 "en": "Island Woods"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"island_woods": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 75,
+"Level": 5,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 2,
+"CountedFloors": 13,
+"Rogue": 1,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9,
+10,
+11,
+12
+]
+],
+"Name": {
+"DefaultText": "Tropical Path",
+"LocalTexts": {
+"fr": "Sentier Tropical",
+"de": "Tropischer Pfad",
+"es": "Paso Tropical",
+"it": "Passaggio Tropicale",
+"zh-hans": "海岛林地"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 0
+},
+"jny_cutscenes": {
+"$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
+"ExpPercent": 100,
+"Level": -1,
+"LevelCap": false,
+"KeepSkills": false,
+"TeamRestrict": false,
+"TeamSize": -1,
+"MoneyRestrict": false,
+"BagRestrict": -1,
+"KeepTreasure": false,
+"BagSize": -1,
+"Rescues": 0,
+"CountedFloors": 0,
+"Rogue": 0,
+"Grounds": [
+"start_quiz",
+"chapter_card",
+"chp1_ultra",
+"chp1_solgaleo"
+],
+"Maps": [],
+"Name": {
+"DefaultText": "Cutscene Scenes",
+"LocalTexts": {
+"zh-hans": "演出场景"
 }
 },
 "Released": false,

@@ -51,18 +51,18 @@ function island_camp.Init(map)
     _DATA.Save.ActiveTeam.Players:Add(riolu)
     _DATA.Save.ActiveTeam.Players:Add(eevee)
 
-    GAME:SetCharacterSkill(charmander, "slash", 0, true)
-    GAME:SetCharacterSkill(charmander, "flamethrower", 1, true)
-    GAME:SetCharacterSkill(charmander, "dragon_breath", 2, true)
-    GAME:SetCharacterSkill(charmander, "inferno", 3, true)
+    GAME:SetCharacterSkill(charmander, "dragon_claw", 0, true)
+    GAME:SetCharacterSkill(charmander, "thunder_punch", 1, true)
+    GAME:SetCharacterSkill(charmander, "ember", 2, true)
+    GAME:SetCharacterSkill(charmander, "flame_burst", 3, true)
 
     GAME:SetCharacterSkill(riolu, "force_palm", 0, true)
     GAME:SetCharacterSkill(riolu, "vacuum_wave", 1, true)
     GAME:SetCharacterSkill(riolu, "metal_claw", 2, true)
-    GAME:SetCharacterSkill(riolu, "bulk_up", 3, true)
+    GAME:SetCharacterSkill(riolu, "work_up", 3, true)
 
-    GAME:SetCharacterSkill(eevee, "swift", 0, true)
-    GAME:SetCharacterSkill(eevee, "bite", 1, true)
+    GAME:SetCharacterSkill(eevee, "tackle", 0, true)
+    GAME:SetCharacterSkill(eevee, "swift", 1, true)
     GAME:SetCharacterSkill(eevee, "refresh", 2, true)
     GAME:SetCharacterSkill(eevee, "helping_hand", 3, true)
 
@@ -80,6 +80,8 @@ function island_camp.Enter(map)
   local eevee = CH('cutscene_eevee')
   local kingambit = CH('kingambit')
   local druddigon = CH('druddigon')
+
+  SOUND:FadeInSE("Ambient/AMB_Ocean", 60)
 
   if SV.island_camp.WatchedCutscene == 0 then
     GAME:CutsceneMode(true)
@@ -169,6 +171,7 @@ function island_camp.Enter(map)
     UI:SetSpeaker(charmander)
     UI:SetSpeakerEmotion("Normal")
     UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['cutscene_charmander_5']))
+    UI:ResetSpeaker()
   
     GAME:WaitFrames(60)
     GAME:FadeOut(false, 60)
@@ -315,6 +318,7 @@ function island_camp.eevee_Action(obj, activator)
     UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['npc_eevee_c5']))
 
     UI:SetSpeakerEmotion("Normal")
+    UI:ResetSpeaker()
 
     GROUND:EntTurn(obj, Direction.DownLeft)
 
@@ -323,9 +327,65 @@ function island_camp.eevee_Action(obj, activator)
     GROUND:CharTurnToChar(obj,CH('PLAYER'))
     UI:SetSpeaker(obj)
     UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['npc_eevee_default'], activator:GetDisplayName()))
+    UI:ResetSpeaker()
     GROUND:EntTurn(obj, Direction.DownLeft)
   end
 
+end
+
+function island_camp.entrance_Touch(obj, activator)
+  UI:ResetSpeaker()
+  UI:ChoiceMenuYesNo(STRINGS:Format(STRINGS.MapStrings['event_confirm_enter']), true)
+  UI:WaitForChoice()
+  local ch = UI:ChoiceResult()
+
+  if ch == true then
+    GAME:FadeOut(false, 60)
+    GROUND:Hide("PLAYER")
+    GROUND:Hide("riolu")
+    GROUND:Hide("eevee")
+    GROUND:Unhide('cutscene_charmander')
+    GROUND:Unhide('cutscene_riolu')
+    GROUND:Unhide('cutscene_eevee')
+
+    local mark_0 = MRKR("mark_0")
+    local mark_1 = MRKR("mark_1")
+    local mark_2 = MRKR("mark_2")
+    local riolu = CH("cutscene_riolu")
+    local charmander = CH("cutscene_charmander")
+    local eevee = CH("cutscene_eevee")
+
+    GROUND:TeleportTo(riolu, mark_0.Position.X, mark_0.Position.Y, Direction.Up)
+    GROUND:TeleportTo(charmander, mark_1.Position.X, mark_1.Position.Y, Direction.Up)
+    GROUND:TeleportTo(eevee, mark_2.Position.X, mark_2.Position.Y, Direction.Up)
+    
+
+    GAME:CutsceneMode(true)
+    GAME:FadeIn(60)
+    UI:SetSpeaker(charmander)
+    UI:SetSpeakerEmotion("Normal")
+    UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['cutscene_enter_0']))
+    UI:SetSpeaker(riolu)
+    UI:SetSpeakerEmotion("Happy")
+    UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['cutscene_enter_1']))
+    GAME:WaitFrames(60)
+    local coro_walk_0 = TASK:BranchCoroutine(function() GROUND:MoveInDirection(charmander, Direction.Up, 120, false, 1) end)
+    local coro_walk_1 = TASK:BranchCoroutine(function() GROUND:MoveInDirection(riolu, Direction.Up, 120, false, 1) end)
+    local coro_walk_2 = TASK:BranchCoroutine(function() GROUND:MoveInDirection(eevee, Direction.Up, 120, false, 1) end)
+    UI:SetSpeakerEmotion("Normal")
+    UI:ResetSpeaker()
+
+    TASK:JoinCoroutines({coro_walk_0, coro_walk_1, coro_walk_2})
+
+    local coro1 = TASK:BranchCoroutine(function() GAME:FadeOut(false, 60) end) 
+		local coro2 = TASK:BranchCoroutine(function() SOUND:FadeOutSE("Ambient/AMB_Ocean", 60) end)
+		TASK:JoinCoroutines({coro1, coro2})
+
+    GAME:WaitFrames(60)
+    GAME:CutsceneMode(false)
+    GAME:EnterDungeon('island_woods', 0, 0, 0, RogueEssence.Data.GameProgress.DungeonStakes.Risk, true, false)
+
+  end 
 end
 
 return island_camp

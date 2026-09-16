@@ -1,10 +1,11 @@
 <root>
   <StartChars>
     <StartChar>
-      <Species>charmander</Species>
+      <Species>abomasnow</Species>
       <Form>0</Form>
-      <Skin>normal</Skin>
-      <Gender>Male</Gender>
+      <Skin>
+      </Skin>
+      <Gender>Genderless</Gender>
       <Name>
       </Name>
     </StartChar>
@@ -155,9 +156,9 @@
     <StartTeam>Team Outlaw</StartTeam>
     <StartTeam>Team Traitor</StartTeam>
   </StartTeams>
-  <StartLevel>50</StartLevel>
+  <StartLevel>5</StartLevel>
   <MaxLevel>100</MaxLevel>
-  <StartPersonality>255</StartPersonality>
+  <StartPersonality>5</StartPersonality>
   <DefaultZone>debug_zone</DefaultZone>
   <DefaultRank>none</DefaultRank>
   <DefaultSkin>normal</DefaultSkin>
@@ -169,7 +170,7 @@
   <DefaultSkill>attack</DefaultSkill>
   <DefaultMonster>missingno</DefaultMonster>
   <StartMap>
-    <Zone>island_camp</Zone>
+    <Zone>jny_cutscenes</Zone>
     <Segment>-1</Segment>
     <ID>0</ID>
     <Entry>0</Entry>

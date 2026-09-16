@@ -1,0 +1,213 @@
+﻿{
+"Version": "0.8.12.0",
+"Object": {
+"$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
+"charizard": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charizard",
+"LocalTexts": {
+"ja": "リザードン",
+"ko": "리자몽",
+"zh-hant": "噴火龍",
+"fr": "Dracaufeu",
+"de": "Glurak",
+"es": "Charizard",
+"it": "Charizard",
+"ja-jp": "リザードン",
+"zh-hans": "喷火龙"
+}
+},
+"Released": true,
+"Temporary": false
+},
+{
+"Name": {
+"DefaultText": "Mega Charizard X",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Dracaufeu X",
+"de": "Mega-Glurak X",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": true,
+"Temporary": true
+},
+{
+"Name": {
+"DefaultText": "Mega Charizard Y",
+"LocalTexts": {
+"ja": "",
+"ko": "",
+"zh-hant": "",
+"fr": "Méga-Dracaufeu Y",
+"de": "Mega-Glurak Y",
+"es": "",
+"it": "",
+"ja-jp": "",
+"zh-hans": ""
+}
+},
+"Released": false,
+"Temporary": true
+},
+{
+"Name": {
+"DefaultText": "Gigantamax Charizard",
+"LocalTexts": {
+"fr": "Dracaufeu Gigamax",
+"de": "Gigadynamax-Glurak"
+}
+},
+"Released": true,
+"Temporary": true
+}
+],
+"Name": {
+"DefaultText": "Charizard",
+"LocalTexts": {
+"ja": "リザードン",
+"ko": "리자몽",
+"zh-hant": "噴火龍",
+"fr": "Dracaufeu",
+"de": "Glurak",
+"es": "Charizard",
+"it": "Charizard",
+"ja-jp": "リザードン",
+"zh-hans": "喷火龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 6
+},
+"charmander": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charmander",
+"LocalTexts": {
+"ja": "ヒトカゲ",
+"ko": "파이리",
+"zh-hant": "小火龍",
+"fr": "Salamèche",
+"de": "Glumanda",
+"es": "Charmander",
+"it": "Charmander",
+"ja-jp": "ヒトカゲ",
+"zh-hans": "小火龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charmander",
+"LocalTexts": {
+"ja": "ヒトカゲ",
+"ko": "파이리",
+"zh-hant": "小火龍",
+"fr": "Salamèche",
+"de": "Glumanda",
+"es": "Charmander",
+"it": "Charmander",
+"ja-jp": "ヒトカゲ",
+"zh-hans": "小火龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 4
+},
+"charmeleon": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Charmeleon",
+"LocalTexts": {
+"ja": "リザード",
+"ko": "리자드",
+"zh-hant": "火恐龍",
+"fr": "Reptincel",
+"de": "Glutexo",
+"es": "Charmeleon",
+"it": "Charmeleon",
+"ja-jp": "リザード",
+"zh-hans": "火恐龙"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Charmeleon",
+"LocalTexts": {
+"ja": "リザード",
+"ko": "리자드",
+"zh-hant": "火恐龍",
+"fr": "Reptincel",
+"de": "Glutexo",
+"es": "Charmeleon",
+"it": "Charmeleon",
+"ja-jp": "リザード",
+"zh-hans": "火恐龙"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 5
+},
+"chikorita": {
+"$type": "RogueEssence.Data.MonsterEntrySummary, RogueEssence",
+"Forms": [
+{
+"Name": {
+"DefaultText": "Chikorita",
+"LocalTexts": {
+"ja": "チコリータ",
+"ko": "치코리타",
+"zh-hant": "菊草葉",
+"fr": "Germignon",
+"de": "Endivie",
+"es": "Chikorita",
+"it": "Chikorita",
+"ja-jp": "チコリータ",
+"zh-hans": "菊草叶"
+}
+},
+"Released": true,
+"Temporary": false
+}
+],
+"Name": {
+"DefaultText": "Chikorita",
+"LocalTexts": {
+"ja": "チコリータ",
+"ko": "치코리타",
+"zh-hant": "菊草葉",
+"fr": "Germignon",
+"de": "Endivie",
+"es": "Chikorita",
+"it": "Chikorita",
+"ja-jp": "チコリータ",
+"zh-hans": "菊草叶"
+}
+},
+"Released": true,
+"Comment": "",
+"SortOrder": 152
+}
+}
+}
